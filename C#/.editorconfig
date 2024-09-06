@@ -101,11 +101,11 @@ tab_width    = 2
 dotnet_analyzer_diagnostic.severity = warning
 
 # SA0001: XML comment analysis is disabled
-dotnet_diagnostic.SA0001.severity = none
+dotnet_diagnostic.SA0001.severity = suggestion
 # CS1591: Missing XML comment for publicly visible type or member
-dotnet_diagnostic.CS1591.severity = none
+dotnet_diagnostic.CS1591.severity = suggestion
 # CA1707: Identifiers should not contain underscores
-dotnet_diagnostic.CA1707.severity = none
+dotnet_diagnostic.CA1707.severity = suggestion
 # SA1600: Elements should be documented
 # dotnet_diagnostic.SA1600.severity = none
 # SA1601: Partial elements should be documented
